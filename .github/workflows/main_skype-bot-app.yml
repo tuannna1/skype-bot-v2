@@ -15,7 +15,8 @@ jobs:
 
     steps:
       - name: Increase file descriptor limit
-        run: ulimit -n 4096
+        run: |
+         ulimit -n 4096
       - name: Checkout code
         uses: actions/checkout@v4
       - name: Set up Node.js version
