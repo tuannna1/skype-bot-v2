@@ -1,0 +1,20 @@
+{
+  "name": "skype-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/core-http": "^3.0.4",
+    "@azure/msal-node": "^2.11.1",
+    "botbuilder": "^4.14.1",
+    "dotenv": "^16.4.5",
+    "formidable": "^3.5.1",
+    "restify": "^11.1.0"
+  }
+}
