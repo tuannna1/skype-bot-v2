@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "botbuilder": "^4.14.1",
     "dotenv": "^16.4.5",
     "formidable": "^3.5.1",
+    "graceful-fs": "^4.2.11",
     "restify": "^11.1.0"
   }
 }
